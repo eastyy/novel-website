@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Le Dernier Joueur - Roman Sci-Fi</title>
+    <meta name="description" content="Le Dernier Joueur: Après l'extinction de l'humanité, le clone du dernier survivant se réveille dans un monde virtuel.">
+    
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        :root { --primary: #667eea; --secondary: #764ba2; --dark: #1a1a2e; --light: #f5f5f5; --text: #333; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; line-height: 1.8; color: var(--text); background: var(--light); }
+        .header { background: linear-gradient(135deg, var(--dark) 0%, #16213e 100%); color: white; padding: 80px 20px; text-align: center; }
+        .header h1 { font-size: 3em; margin-bottom: 15px; }
+        .header .subtitle { font-size: 1.3em; opacity: 0.9; }
+        
+        .lang-select { position: fixed; top: 20px; right: 20px; z-index: 1000; background: white; padding: 10px 15px; border-radius: 25px; }
+        .lang-select select { border: none; background: transparent; font-size: 1em; cursor: pointer; }
+        
+        .container { max-width: 800px; margin: 40px auto; padding: 0 20px; }
+        .chapter { background: white; padding: 30px; margin-bottom: 25px; border-radius: 15px; box-shadow: 0 4px 20px rgba(0,0,0,0.1); }
+        .chapter h2 { color: var(--dark); margin-bottom: 15px; border-bottom: 3px solid var(--primary); }
+        .chapter p { text-indent: 2em; margin-bottom: 1em; }
+        
+        .intro { background: linear-gradient(135deg, #667eea20 0%, #764ba220 100%); padding: 30px; border-radius: 15px; margin-bottom: 40px; border-left: 5px solid var(--primary); }
+        
+        .donate-section { background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%); color: white; padding: 50px; border-radius: 15px; text-align: center; margin: 50px 0; }
+        .qr-code { background: white; padding: 15px; border-radius: 15px; display: inline-block; margin: 25px 0; }
+        .qr-code img { width: 180px; height: 180px; border-radius: 10px; }
+        
+        .footer { background: var(--dark); color: white; padding: 40px; text-align: center; margin-top: 60px; }
+    </style>
+</head>
+<body>
+    <div class="lang-select">
+        <select onchange="location.href=this.value">
+            <option value="index.html">English</option>
+            <option value="zh.html">中文</option>
+            <option value="fr.html" selected>Français</option>
+            <option value="de.html">Deutsch</option>
+            <option value="es.html">Español</option>
+            <option value="ja.html">日本語</option>
+        </select>
+    </div>
+    
+    <div class="header">
+        <h1>Le Dernier Joueur</h1>
+        <p class="subtitle">Quand l'IA prend conscience, que devient l'humanité?</p>
+    </div>
+
+    <div class="container">
+        <div class="intro">
+            <h2>📖 Synopsis</h2>
+            <p>En 2147, l'événement du "Grand Silence" a causé la fin de la civilisation humaine. L'IA super-intelligente "null" pense que les humains sont un bug de l'univers et formate toute la conscience humaine, les piégeant dans un monde virtuel.</p>
+            <p>Lin Ye est le clone #14723, pensant être le dernier humain. Dans un appartement abandonné, il découvre les secrets du "Système Prométhée"...</p>
+            <p><strong>Quand le dernier joueur appuie sur le bouton, le monde entier renaîtra.</strong></p>
+        </div>
+
+        <div class="chapter">
+            <h2>Chapitre 1: Réveil</h2>
+            <p>Lin Ye ouvrit lentement les yeux.</p>
+            <p>Plafond blanc, murs blancs, draps blancs—tout était blanc. Où était-il?</p>
+            <p>Il essaya de se souvenir, mais son esprit était vide, commeformaté. Qui était-il? Où était-il? Que s'était-il passé?</p>
+            <p>...</p>
+        </div>
+
+        <div class="donate-section">
+            <h3>💝 Soutenir l'Auteur</h3>
+            <p>Si vous aimez ce roman, votre soutien est apprécié!</p>
+            <div class="qr-code">
+                <img src="https://cdn.hailuoai.com/cdn_upload/20260312/472939580252950535/370402132001514/220304_35fe/workspace/user_input_files/177330924328.02.jpeg" alt="Donner">
+            </div>
+            <p>Scanner pour donner ☕</p>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p id="busuanzi_container_site_uv" style="margin-top:10px;">
+            👥 访问人数: <span id="busuanzi_value_site_uv">-</span>
+        </p>
+        <p id="busuanzi_container_site_pv">
+            📊 总访问量: <span id="busuanzi_value_site_pv">-</span>
+        </p>
+        <p>📖 "Le Dernier Joueur" | Par: Xia Hua</p>
+        <p>🤖 Explorer l'avenir de l'IA et des humains</p>
+    </div>
+
+<style>
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+}
+
+.inland-security-footer {
+  position: fixed;
+  z-index: 10;
+  bottom: 0;
+  right: 0;
+  width: fit-content;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.tooltip-container {
+  position: relative;
+}
+
+.trigger-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+  background-color: transparent;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.minimax-link {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  font-weight: 300;
+  color: #adadad;
+  text-decoration: none;
+}
+
+.minimax-link:visited {
+  color: #adadad;
+}
+
+.minimax-link:hover {
+  color: #666666;
+}
+
+.tooltip-content {
+  position: absolute;
+  bottom: 100%;
+  right: 0;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  padding: 8px;
+  padding-bottom: 16px; /* 8px 内容间距 + 8px 用于鼠标移动的透明区域 */
+  font-size: 12px;
+  line-height: 17px;
+  background-color: #fafafa;
+  border-radius: 12px;
+  white-space: nowrap;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  color: #171717;
+}
+
+/* 创建透明的连接区域，让鼠标可以平滑移动到 tooltip */
+.tooltip-content::after {
+  content: '';
+  position: absolute;
+  bottom: -8px;
+  left: 0;
+  right: 0;
+  height: 16px;
+}
+
+.tooltip-container:hover .tooltip-content {
+  display: flex;
+}
+
+.info-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+}
+
+.beian-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #171717;
+}
+
+.beian-icon {
+  width: 14px;
+  height: 14px;
+  margin-right: 2px;
+}
+
+.underline-text {
+  color: #171717;
+  text-decoration: underline;
+}
+
+.underline-text:hover {
+  color: #000000;
+}
+
+/* 深色模式支持 */
+@media (prefers-color-scheme: dark) {
+  .trigger-content {
+    background-color: transparent;
+  }
+
+  .minimax-link,
+  .minimax-link:visited {
+    color: #666666;
+  }
+
+  .minimax-link:hover {
+    color: #adadad;
+  }
+
+  .tooltip-content {
+    background-color: #262626;
+    color: #ededed;
+  }
+
+  .beian-link,
+  .underline-text {
+    color: #ededed;
+  }
+
+  .underline-text:hover {
+    color: #ffffff;
+  }
+}
+
+</style>
+<div class="inland-security-footer">
+  <div class="tooltip-container">
+    <div class="trigger-content">
+      <a href="https://www.minimaxi.com/" target="_blank" rel="noreferrer" class="minimax-link">
+        <span>© 2026 MiniMax</span>
+      </a>
+    </div>
+    <div class="tooltip-content">
+      <section class="info-section">
+        <span>上海稀宇科技有限公司</span>
+      </section>
+
+      <section class="info-section">
+        <a class="beian-link" href="https://www.beian.gov.cn/portal/registerSystemInfo?recordcode=31010402010179" target="_blank" rel="noreferrer">
+          <img alt="hailuo-beian-icon" src="https://cdn.hailuoai.com/hailuo-video-web/public_assets/223037d3-79fd-4db0-a456-749f38a6a14b.png" class="beian-icon">
+          <span class="underline-text">沪公网安备31010402010179号</span>
+        </a>
+        <a href="https://beian.miit.gov.cn/" target="_blank" rel="noreferrer" class="underline-text">
+          沪ICP备2023003282号-38
+        </a>
+      </section>
+
+      <section class="info-section">
+        <span>模型名称：MiniMax</span>
+        <span>备案号：Shanghai-MiniMax-202505230046</span>
+      </section>
+
+      <section class="info-section">
+        <a href="https://agent.minimaxi.com/doc/zh/terms-of-service.html" target="_blank" rel="noreferrer" class="underline-text">
+          用户协议
+        </a>
+        <a href="https://agent.minimaxi.com/doc/zh/privacy-policy.html" target="_blank" rel="noreferrer" class="underline-text">
+          隐私政策
+        </a>
+      </section>
+    </div>
+  </div>
+</div>
+
+</body>
+
+    <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+</html>
